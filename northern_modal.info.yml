@@ -1,0 +1,5 @@
+name: Northern Modal
+type: module
+description: "Create a custom block and accessible modal."
+package: Custom
+core_version_requirement: ^8.7.7 || ^9
