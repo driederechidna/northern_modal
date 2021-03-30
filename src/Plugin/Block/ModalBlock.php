@@ -33,6 +33,9 @@ class ModalBlock extends BlockBase {
     //Load the custom form created by this module
     $block['form'] = \Drupal::formBuilder()->getForm('Drupal\northern_modal\Form\ModalForm');
 
+    //Attach JS script
+    $block['form']['#attached']['library'][] = 'northern_modal/northern-modal';
+
     return $block;
   }
 

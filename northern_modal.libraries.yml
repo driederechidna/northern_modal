@@ -1,0 +1,6 @@
+northern-modal:
+  version: 1.x
+  js:
+    js/northern-modal.js: {}
+  dependencies:
+    - core/jquery

@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Hook implementations for Northern Modal module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+
+function northern_modal_theme($existing, $type, $theme, $path) {
+
+    $themes['block__northern_modal'] = [
+        'template' => 'block--northern-modal',
+        'base hook' => 'block',
+        'render element' => 'elements',
+    ];
+    return $themes;
+}
